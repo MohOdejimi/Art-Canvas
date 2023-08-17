@@ -1,0 +1,166 @@
+.buttons {
+  position: fixed;
+  bottom: 0;
+  margin: .8rem 0rem;
+}
+#drawing-canvas {
+  position: fixed;
+}
+.controls, .actions {
+  display: flex;
+  gap: .65rem
+}
+.controls, .styles, .Menu{
+  border: 0.5px solid black;
+  background-color: ghostwhite;
+  padding: .2rem;
+  border-radius: 5px;
+}
+.buttons i{
+  padding: .65rem;
+}
+.controls i:hover, .controls i:active{
+  background: #0b7b9e;
+  border-radius: 5px;
+}
+.toolbar {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.background-colors {
+  display: none;
+  background: whitesmoke;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+}
+.colors-box {
+  display: none;
+}
+.colors{
+  background: whitesmoke;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+.background-colors div {
+   width: 12px;
+   height: 10px;
+   border: 2px solid #ccc;
+   margin: 8px;
+}
+.black,#black {
+  background-color: black;
+}
+.red,#red {
+  background-color: red;
+}
+.lightgreen,#lightgreen {
+  background-color: lightgreen;
+}
+.grey,#grey {
+  background-color: grey;
+}
+.lightpink,#lightpink {
+  background-color: lightpink;
+}
+.yellow {
+  background-color: yellow;
+}
+#white {
+  background-color: white;
+}
+.blue,#blue {
+  background-color: blue;
+}
+.purple,#purple {
+  background-color: rebeccapurple;
+}
+#palette:hover, #palette:active {
+  background: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body {
+  background-color: white;
+}
+#canvas-container {
+  overflow: hidden;
+ 
+}
+#drawing-canvas {
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+.icon-container {
+  position: relative;
+ }
+.icon-container:hover .hover-text {
+   display: block;
+  }
+ .hover-text {
+   position: absolute;
+   top: -30px;
+   left: 50%;
+   font-size: .5rem;
+   transform: translateX(-50%);
+   background-color: #333;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 5px;
+   display: none;
+   font-family: PT sans;
+  }
+ .shapes {
+   background: whitesmoke;
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   right: 45%;
+   bottom: 0%;
+   border-radius: 5px;
+ }
+ #triangle {
+   transform: rotate(270deg);
+ }
+ #shapesBar {
+   display: none;
+ }
+ .Menu {
+   display: inline-block;
+ }
+ .Menu i {
+   padding: .5rem;
+ }
+ .Menu, .menuIcons {
+   position: relative;
+ }
+ .menubar {
+   margin-top: .75rem;
+   display: none;
+ }
+ .menuIcons {
+   display: inline-flex;
+   gap: 1rem;
+   padding: .5rem;
+   background: whitesmoke;
+   border-radius: 5px;
+   border: 1px solid #091d26;
+ }
+.vertical-line {
+    border-left: 1px solid black;
+    margin: 0 10px; 
+  }

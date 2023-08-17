@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/102bc8442d.js" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    </style>
+</head>
+<body>
+    <div id="canvas-container">
+        <canvas id="drawing-canvas"></canvas>
+    </div>
+    
+    
+    <section class = 'buttons'> 
+      <div class = 'toolbar'> 
+        <section class="background-colors">
+         <div id = 'white'></div>
+         <div id = 'grey'></div>
+         <div id = 'blue'></div>
+         <div id = 'red'></div>
+         <div id = 'black'></div>
+         <div id = 'purple'></div>
+         <div id = 'lightgreen'></div>
+         <div id = 'lightpink'></div>
+        </section>
+
+        <section id = 'shapesBar'>
+          <div class='shapes'>
+            <i id='shcircle' class="fa-solid fa-circle"></i>
+            <i id='square' class="fa-solid fa-square"></i>
+            <i id='triangle' class="fa-solid fa-play"></i>
+          </div>
+        </section>
+       <section class = 'colors-box'>
+        <section class = 'colors'>
+         <div class="circle black"></div>
+         <div class="circle grey"></div>
+         <div class="circle blue"></div>
+         <div class="circle red"></div>
+         <div class="circle yellow"></div>
+         <div class="circle purple"></div>
+         <div class="circle lightgreen"></div>
+         <div class="circle lightpink"></div>
+        </section>
+       </section>
+      
+      </div>
+     <div class = 'actions'> 
+       <div class="controls">
+         <div class="icon-container">
+           <i id = 'background' class="fa-solid fa-paint-roller"></i>
+           <span class="hover-text">Background</span>
+         </div>
+         
+         <div class="icon-container">
+           <i id="paintbrush" class="fa-solid fa-paintbrush"></i>
+           <span class="hover-text">Paintbrush</span>
+         </div>
+         
+         <div class="icon-container">
+            <i id="pencil" class="fa-solid fa-pen"></i>
+            <span class="hover-text">Pencil</span>
+          </div>
+           
+           <div class="icon-container">
+             <i id="shapes" class="fa-solid fa-shapes"></i>
+             <span class="hover-text">Shapes</span>
+           </div> 
+   
+          <div class="icon-container">
+            <i id="zoomin" class="fa-solid fa-magnifying-glass-plus"></i>
+            <span class="hover-text">Zoom In</span>
+          </div>
+ 
+          <div class="icon-container">
+            <i id="zoomout" class="fa-solid fa-magnifying-glass-minus"></i>
+            <span class="hover-text">Zoom Out</span>
+          </div>
+        </div>
+        
+        <div class="styles">
+          <div class = 'icon-container'>
+            <i id='palette' class="fa-solid fa-palette"></i>
+            <span class ='hover-text'>Palette</span>
+          </div>
+        </div>
+     </div>
+    </section>
+        <div class='Menu'>
+          <div>
+            <i id="menu" class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+    <section class='menubar'>
+      <div class='menuIcons'>
+        <div>
+          <i id="download" class="fa-solid fa-download"></i>
+        </div>
+        <hr class="vertical-line">
+        <div>
+          <i id="delete" class="fa-solid fa-trash-can"></i>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
+     
