@@ -1,6 +1,8 @@
 # Art-Canvas
 ArtCanvas: A user-friendly drawing tool inspired by Tldraw, designed to let you unleash your creativity on a digital canvas.
+
 Link to Project: https://artcanvas.vercel.app/
+![chrome_screenshot_1692287594478](https://github.com/MohOdejimi/Art-Canvas/assets/67811733/4e578794-7492-46f9-8823-7acbfa291d6c)
 
 
 # How It's Made:
